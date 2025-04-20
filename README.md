@@ -44,6 +44,10 @@ Crie o arquivo `cypress.env.json` na raiz do projeto com o seguinte conteúdo:
   "GITHUB_USERNAME": "informe seu username usado no github"
 }
 ```
+💡 **Dica:** Para criar o arquivo via terminal, copie e cole o comando abaixo (substituindo pelos seus dados reais):
+
+echo '{ "GITHUB_TOKEN": "seu_token_aqui", "GITHUB_USERNAME": "seu_usuario_github" }' > cypress.env.json
+
 
 **Importante:** Para gerar seu token pessoal, acesse:  
 [https://github.com/settings/tokens](https://github.com/settings/tokens)
