@@ -19,12 +19,12 @@ Automação de testes utilizando Cypress para validar funcionalidades da API do 
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/monielenunes/testesapi-github.git
+   git clone https://github.com/monielenunes/repoteste-api-github.git
    ```
 
 2. **Acesse a pasta do projeto:**
    ```bash
-   cd github-api-test
+   cd repoteste-api-github
    ```
 
 3. **Instale as dependências:**
