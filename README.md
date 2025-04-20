@@ -36,6 +36,13 @@ Automação de testes utilizando Cypress para validar funcionalidades da API do 
 
 ## ⚙️ Configuração
 
+**Importante:** Os testes não funcionarão sem um token de acesso pessoal do GitHub, pois a API exige autenticação para realizar operações como criar repositórios e issues.
+Para seguir os próximos passos, é necessário ter esse token.
+
+Caso você ainda não tenha um, gere acessando:
+👉 [https://github.com/settings/tokens](https://github.com/settings/tokens)
+
+
 Crie o arquivo `cypress.env.json` na raiz do projeto com o seguinte conteúdo:
 
 ```json
@@ -44,14 +51,9 @@ Crie o arquivo `cypress.env.json` na raiz do projeto com o seguinte conteúdo:
   "GITHUB_USERNAME": "informe seu username usado no github"
 }
 ```
-💡 **Dica:** Para criar o arquivo via terminal, copie e cole o comando abaixo (substituindo pelos seus dados reais):
+💡 **Dica:** Para criar o arquivo via terminal, copie e cole o comando abaixo (não se esqueça de substituir os campos `"seu_token_aqui` e `"seu_usuario_github"` com os seus dados):
 
 echo '{ "GITHUB_TOKEN": "seu_token_aqui", "GITHUB_USERNAME": "seu_usuario_github" }' > cypress.env.json
-
-
-**Importante:** Para gerar seu token pessoal, acesse:  
-[https://github.com/settings/tokens](https://github.com/settings/tokens)
-
 ---
 
 ## ▶️ Execução dos Testes
